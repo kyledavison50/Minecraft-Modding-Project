@@ -5,7 +5,7 @@ import net.minecraft.entity.EntityLivingBase
 import net.minecraft.entity.passive.EntityCow
 import net.minecraft.item.ItemStack
 
-class CopperSword: SwordBase("copper_sword")
+class CopperSword: SwordBase("copper_sword",ToolMaterial.DIAMOND)
 {
     override fun hitEntity(stack: ItemStack, target: EntityLivingBase, attacker: EntityLivingBase): Boolean
     {

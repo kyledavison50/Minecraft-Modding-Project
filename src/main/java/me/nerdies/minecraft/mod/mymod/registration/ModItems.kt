@@ -8,6 +8,7 @@ import me.nerdies.minecraft.mod.mymod.armor.CopperHelmet
 import me.nerdies.minecraft.mod.mymod.armor.CopperLeggings
 import me.nerdies.minecraft.mod.mymod.items.IngotCopper
 import me.nerdies.minecraft.mod.mymod.weapons.CopperSword
+import me.nerdies.minecraft.mod.mymod.items.Corn
 
 // 1) Register the item here
 // 2) Place your texture in resources/assets/nerdiesmod/textures/items/TextureName.png
@@ -21,6 +22,7 @@ object ModItems : RegisterItems()
     val copperChestplate = CopperChestplate()
     val copperLeggings = CopperLeggings()
     val copperBoots = CopperBoots()
+    val corn = Corn()
 
     init
     {
@@ -30,5 +32,6 @@ object ModItems : RegisterItems()
         itemList.add(copperChestplate)
         itemList.add(copperLeggings)
         itemList.add(copperBoots)
+        itemList.add(corn)
     }
 }
