@@ -1,9 +1,10 @@
 # Items
-item.ingot_copper.name=Copper Ingot
-item.ender_sword.name=Ender Sword
-item.spatula.name=Spatula
+item.copper_ingot.name=Copper Ingot
 item.copper_sword.name=Copper Sword
 item.copper_helmet.name=Copper Helmet
+item.copper_chestplate.name=Copper Chestplate
+item.copper_leggings.name=Copper Leggings
+item.copper_boots.name=Copper Boots
 item.corn.name=Corn
 
 # Blocks

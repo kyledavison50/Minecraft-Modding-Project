@@ -6,7 +6,7 @@ import me.nerdies.minecraft.mod.mymod.armor.CopperBoots
 import me.nerdies.minecraft.mod.mymod.armor.CopperChestplate
 import me.nerdies.minecraft.mod.mymod.armor.CopperHelmet
 import me.nerdies.minecraft.mod.mymod.armor.CopperLeggings
-import me.nerdies.minecraft.mod.mymod.items.IngotCopper
+import me.nerdies.minecraft.mod.mymod.items.CopperIngot
 import me.nerdies.minecraft.mod.mymod.weapons.CopperSword
 import me.nerdies.minecraft.mod.mymod.items.Corn
 
@@ -16,7 +16,7 @@ import me.nerdies.minecraft.mod.mymod.items.Corn
 // 4) Configure the translation key in en_US.lang
 object ModItems : RegisterItems()
 {
-    val ingotCopper = IngotCopper()
+    val copperIngot = CopperIngot()
     val copperSword = CopperSword()
     val copperHelmet = CopperHelmet()
     val copperChestplate = CopperChestplate()
@@ -26,7 +26,7 @@ object ModItems : RegisterItems()
 
     init
     {
-        itemList.add(ingotCopper)
+        itemList.add(copperIngot)
         itemList.add(copperSword)
         itemList.add(copperHelmet)
         itemList.add(copperChestplate)

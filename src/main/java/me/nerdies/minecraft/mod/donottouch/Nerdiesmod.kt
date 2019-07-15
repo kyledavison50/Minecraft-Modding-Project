@@ -1,6 +1,7 @@
 package me.nerdies.minecraft.mod.donottouch
 
 import me.nerdies.minecraft.mod.donottouch.proxy.CommonProxy
+import me.nerdies.minecraft.mod.mymod.smelting.Smelting
 import me.nerdies.minecraft.mod.mymod.registration.ModBlocks
 import me.nerdies.minecraft.mod.mymod.registration.ModItems
 import net.minecraft.block.Block
@@ -17,9 +18,6 @@ import net.minecraftforge.fml.common.eventhandler.EventBus
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 import net.minecraft.init.SoundEvents
 import net.minecraftforge.common.util.EnumHelper
-import net.minecraft.item.ItemArmor
-
-
 
 
 @Mod(modid = ModInfo.MOD_ID, name = ModInfo.MOD_NAME, version = ModInfo.VERSION, modLanguageAdapter = "net.shadowfacts.forgelin.KotlinAdapter")
@@ -43,7 +41,7 @@ object Nerdiesmod
     @Mod.EventHandler
     fun init(event: FMLInitializationEvent)
     {
-
+        Smelting.getRecipes()
     }
 
     @Mod.EventHandler

@@ -1,25 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "BBB",
     " A ",
-    " A "  ],
+    " A ",
+    " B "  ],
   "key": {
     "A": [
       {
-        "item": "minecraft:cake",
+        "item": "nerdiesmod:copper_ingot",
         "data": 0
       }
     ],
     "B": [
       {
-        "item": "minecraft:baked_potato",
+        "item": "minecraft:stick",
         "data": 0
       }
     ]
   },
   "result": {
-    "item": "minecraft:beacon",
+    "item": "nerdiesmod:copper_sword",
     "data": 0
   }
 }

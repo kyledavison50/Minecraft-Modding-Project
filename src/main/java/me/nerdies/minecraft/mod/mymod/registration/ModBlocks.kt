@@ -6,7 +6,7 @@ import me.nerdies.minecraft.mod.mymod.blocks.CopperOre
 
 object ModBlocks : RegisterBlocks()
 {
-    private var oreCopper = CopperOre()
+    val oreCopper = CopperOre()
 
     init
     {
