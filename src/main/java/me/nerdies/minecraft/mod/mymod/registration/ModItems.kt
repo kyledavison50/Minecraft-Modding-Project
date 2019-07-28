@@ -2,10 +2,7 @@ package me.nerdies.minecraft.mod.mymod.registration
 
 
 import me.nerdies.minecraft.mod.donottouch.registration.RegisterItems
-import me.nerdies.minecraft.mod.mymod.armor.CopperBoots
-import me.nerdies.minecraft.mod.mymod.armor.CopperChestplate
-import me.nerdies.minecraft.mod.mymod.armor.CopperHelmet
-import me.nerdies.minecraft.mod.mymod.armor.CopperLeggings
+import me.nerdies.minecraft.mod.mymod.armor.*
 import me.nerdies.minecraft.mod.mymod.items.CopperIngot
 import me.nerdies.minecraft.mod.mymod.weapons.CopperSword
 import me.nerdies.minecraft.mod.mymod.items.Corn

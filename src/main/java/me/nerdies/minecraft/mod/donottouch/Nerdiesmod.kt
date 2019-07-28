@@ -18,6 +18,10 @@ import net.minecraftforge.fml.common.eventhandler.EventBus
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 import net.minecraft.init.SoundEvents
 import net.minecraftforge.common.util.EnumHelper
+import me.nerdies.minecraft.mod.mymod.worldgen.WorldGen
+import net.minecraftforge.fml.common.registry.GameRegistry
+
+
 
 
 @Mod(modid = ModInfo.MOD_ID, name = ModInfo.MOD_NAME, version = ModInfo.VERSION, modLanguageAdapter = "net.shadowfacts.forgelin.KotlinAdapter")
@@ -28,6 +32,7 @@ object Nerdiesmod
     lateinit var eventBus: EventBus
 
     val copperArmorMaterial = EnumHelper.addArmorMaterial("COPPER", ModInfo.MOD_ID + ":copper", 15, intArrayOf(2, 5, 6, 2), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f)
+    val copperToolMaterial = EnumHelper.addToolMaterial("COPPER", 2,250,15f,8f,100)
 
     val creativeTab = ExampleTab()
 
@@ -47,7 +52,7 @@ object Nerdiesmod
     @Mod.EventHandler
     fun postinit(event: FMLPostInitializationEvent)
     {
-
+        GameRegistry.registerWorldGenerator(WorldGen, 3)
     }
 
     @Mod.EventBusSubscriber

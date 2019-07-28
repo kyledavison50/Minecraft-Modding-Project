@@ -5,7 +5,8 @@
       "all": "nerdiesmod:blocks/ore_copper"
     }
   },
-  "variants": {
+  "variants":
+  {
     "normal": {
       "model": "cube_all"
     },
